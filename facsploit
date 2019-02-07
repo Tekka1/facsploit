@@ -1,0 +1,13 @@
+#!/data/data/com.termux/files/usr/bin/python
+import os,sys,time
+
+def main ():
+	os.system("clear")
+	con = """
+	\n\n\n\033[31m\tcomming soon!!!!!
+	\033[0m\n\n"""
+	for char in con:
+		sys.stdout.write(char)
+		sys.stdout.flush()
+		time.sleep(0.1)
+main()
